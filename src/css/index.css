@@ -33,9 +33,9 @@ hr { border: 0; border-top: 1px dotted #efefef; }
 
 .nav-bar .logo { flex: 1; padding: 0.5rem; font-family: "Crimson Pro", serif; text-transform: uppercase; font-size: 0.875rem; border: 1px solid #fff; }
 
-.nav-bar .mobile-menu-toggler { background-color: transparent; font-size: 1.8rem; padding: 0; color: #fff; border: none; cursor: pointer; z-index: 100000; }
+.nav-bar .mobile-menu-toggler { background-color: transparent; font-size: 1.8rem; padding: 0; color: #fff; border: none; cursor: pointer; z-index: 100; }
 
-.nav-bar .menu { display: none; flex-direction: column; justify-content: center; align-items: center; position: absolute; inset: 0; height: 100%; width: 100%; background: #181719; }
+.nav-bar .menu { display: none; flex-direction: column; justify-content: center; align-items: center; position: absolute; inset: 0; height: 100%; width: 100%; background: #181719; z-index: 99; }
 
 .nav-bar .menu .menu_item + .menu_item { margin-top: 2rem; }
 
